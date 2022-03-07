@@ -6,7 +6,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            double meal_csot = 100;
+            int tip_percent = 15;
+            int tax_percent = 8;
+            double a = meal_csot * tip_percent / 100+ tax_percent*meal_csot   / 100+meal_csot ;
+            Console.WriteLine("total:"+a);
+            
         }
     }
 }
